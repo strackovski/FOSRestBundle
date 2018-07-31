@@ -11,7 +11,8 @@
 
 namespace FOS\RestBundle\Controller\Annotations;
 
-use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route as BaseRoute;
+use Symfony\Component\Routing\Annotation\Route as BaseRoute;
+// use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route as BaseRoute;
 
 /**
  * Route annotation class.
